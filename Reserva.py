@@ -2,7 +2,7 @@
 class Habitacion:
     def __init__(self, numero, tipo, precio):
         self.numero = numero  # Número de la habitación
-        self.tipo = tipo      # Tipo de habitación (simple, doble, suite, etc.)
+        self.tipo = tipo      # Tipo de habitación (simple, doble, suite)
         self.precio = precio  # Precio por noche
         self.disponible = True  # Estado de disponibilidad de la habitación
 
